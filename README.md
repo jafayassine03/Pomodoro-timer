@@ -6,15 +6,27 @@ Built using pure Python with no external libraries — just `time` and `os`.
 Perfect for staying focused while coding or studying.
 
 ---
+🚀 Features
 
-## 🚀 Features
+⏳ Customizable work, short break, and long break durations
 
-- 25-minute focus sessions
-- 5-minute short breaks
-- 15-minute long break after 4 sessions
-- Live countdown timer (updates every second)
-- Runs continuously until you stop it
-- Cross-platform (Windows / Mac / Linux)
+🧠 Automatic long break after every 4 focus sessions
+
+📊 Live countdown timer (updates every second)
+
+██████████ Progress bar indicator in terminal
+
+🔔 Sound notification when a session ends
+
+🛑 Graceful exit using Ctrl + C
+
+🖥️ Automatic terminal screen clearing between sessions
+
+🔁 Infinite session loop (runs until manually stopped)
+
+💻 Cross-platform support (Windows, macOS, Linux)
+
+⚙️ Input validation with fallback to default values
 
 ---
 
