@@ -43,21 +43,6 @@ Continue the cycle
 
 The loop runs continuously to keep you in deep work mode without interruptions.
 
-📦 Installation
-
-Make sure you have Python 3 installed.
-
-Clone the repository:
-
-git clone https://github.com/yourusername/terminal-pomodoro.git
-cd terminal-pomodoro
-
-Run the script:
-
-python pomodoro.py
-
-That’s it. No setup. No dependencies.
-
 🎯 Why This Project?
 
 Most Pomodoro apps are:
@@ -91,11 +76,6 @@ sys
 
 No third-party packages required.
 
-📁 Project Structure
-terminal-pomodoro/
-│
-├── pomodoro.py
-└── README.md
 
 Simple. Clean. Maintainable.
 
