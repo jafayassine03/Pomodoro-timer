@@ -1,48 +1,114 @@
-# 🍅 Terminal Pomodoro Timer (Python)
+🍅 Terminal Pomodoro Timer (Python)
 
-A simple and clean Pomodoro timer that runs directly in the terminal.
+A clean, minimal, and distraction-free Pomodoro timer that runs directly in your terminal.
 
-Built using pure Python with no external libraries — just `time` and `os`.  
-Perfect for staying focused while coding or studying.
+Built using pure Python (standard library only) — no external dependencies.
+Designed for developers, students, and anyone who wants deep focus without bloated apps.
 
----
 🚀 Features
 
 ⏳ Customizable work, short break, and long break durations
 
-🧠 Automatic long break after every 4 focus sessions
+🔁 Automatic long break after every 4 focus sessions
 
-📊 Live countdown timer (updates every second)
+📊 Real-time countdown timer (updates every second)
 
-██████████ Progress bar indicator in terminal
+██████████ Visual progress bar inside the terminal
 
 🔔 Sound notification when a session ends
 
-🛑 Graceful exit using Ctrl + C
+🛑 Graceful exit with Ctrl + C
 
-🖥️ Automatic terminal screen clearing between sessions
+🖥 Automatic terminal screen clearing between sessions
 
-🔁 Infinite session loop (runs until manually stopped)
+♾ Infinite focus loop (runs until manually stopped)
 
 💻 Cross-platform support (Windows, macOS, Linux)
 
 ⚙️ Input validation with fallback to default values
 
----
+🧠 How It Works
 
-## 🛠 How It Works
+This timer follows the classic Pomodoro Technique:
 
-The timer follows the classic Pomodoro technique:
+Focus for 25 minutes
 
-1. Focus for 25 minutes
-2. Take a 5-minute break
-3. Repeat
-4. After 4 sessions → take a longer 15-minute break
+Take a 5-minute short break
 
-It keeps looping so you can stay in deep work mode.
+Repeat for 4 sessions
 
----
+After 4 sessions → take a 15-minute long break
 
-License
+Continue the cycle
 
-Totally free to use! Play around with it and make it your own 😄
+The loop runs continuously to keep you in deep work mode without interruptions.
+
+📦 Installation
+
+Make sure you have Python 3 installed.
+
+Clone the repository:
+
+git clone https://github.com/yourusername/terminal-pomodoro.git
+cd terminal-pomodoro
+
+Run the script:
+
+python pomodoro.py
+
+That’s it. No setup. No dependencies.
+
+🎯 Why This Project?
+
+Most Pomodoro apps are:
+
+Bloated
+
+Distracting
+
+Full of UI clutter
+
+This project focuses on:
+
+✔ Simplicity
+✔ Performance
+✔ Zero dependencies
+✔ Terminal-based productivity
+
+Perfect for developers who live in the command line.
+
+🛠 Tech Stack
+
+Python 3
+
+Standard Library:
+
+time
+
+os
+
+sys
+
+No third-party packages required.
+
+📁 Project Structure
+terminal-pomodoro/
+│
+├── pomodoro.py
+└── README.md
+
+Simple. Clean. Maintainable.
+
+🔮 Possible Future Improvements
+
+Session statistics tracking
+
+Daily productivity report
+
+Save session history to file
+
+Dark-mode ASCII UI enhancements
+
+Packaging as a CLI tool (pip install)
+
+Optional GUI version
