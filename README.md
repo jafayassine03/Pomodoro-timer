@@ -1,94 +1,39 @@
-🍅 Terminal Pomodoro Timer (Python)
+🚀 Pomodoro Pro X
 
-A clean, minimal, and distraction-free Pomodoro timer that runs directly in your terminal.
+A powerful, terminal-based Pomodoro timer built with pure Python.
 
-Built using pure Python (standard library only) — no external dependencies.
-Designed for developers, students, and anyone who wants deep focus without bloated apps.
+Pomodoro Pro X is more than just a timer — it tracks your daily progress, builds streaks, and keeps you disciplined through focused work sessions.
 
-🚀 Features
+Designed for developers, students, and anyone who wants to level up their productivity.
 
-⏳ Customizable work, short break, and long break durations
+✨ Features
 
-🔁 Automatic long break after every 4 focus sessions
+⏳ Default 25-minute focus sessions
 
-📊 Real-time countdown timer (updates every second)
+⚙️ Custom focus duration option
 
-██████████ Visual progress bar inside the terminal
+☕ Automatic short & long breaks
 
-🔔 Sound notification when a session ends
+📊 Daily statistics tracking
 
-🛑 Graceful exit with Ctrl + C
+🔥 Daily streak system
 
-🖥 Automatic terminal screen clearing between sessions
+🎯 Daily goal tracking
 
-♾ Infinite focus loop (runs until manually stopped)
+💾 Persistent stats using JSON
 
-💻 Cross-platform support (Windows, macOS, Linux)
+🕒 Real-time clock display
 
-⚙️ Input validation with fallback to default values
+💬 Random motivational quotes
 
-🧠 How It Works
+🔔 Cross-platform sound notification
 
-This timer follows the classic Pomodoro Technique:
+🎯 Why I Built This
 
-Focus for 25 minutes
+I wanted a clean productivity tool that runs directly in the terminal — no distractions, no browser tabs, no heavy apps.
 
-Take a 5-minute short break
+Just discipline.
 
-Repeat for 4 sessions
+License
 
-After 4 sessions → take a 15-minute long break
-
-Continue the cycle
-
-The loop runs continuously to keep you in deep work mode without interruptions.
-
-🎯 Why This Project?
-
-Most Pomodoro apps are:
-
-Bloated
-
-Distracting
-
-Full of UI clutter
-
-This project focuses on:
-
-✔ Simplicity
-✔ Performance
-✔ Zero dependencies
-✔ Terminal-based productivity
-
-Perfect for developers who live in the command line.
-
-🛠 Tech Stack
-
-Python 3
-
-Standard Library:
-
-time
-
-os
-
-sys
-
-No third-party packages required.
-
-
-Simple. Clean. Maintainable.
-
-🔮 Possible Future Improvements
-
-Session statistics tracking
-
-Daily productivity report
-
-Save session history to file
-
-Dark-mode ASCII UI enhancements
-
-Packaging as a CLI tool (pip install)
-
-Optional GUI version
+Totally free to use! Play around with it and make it your own 😄
